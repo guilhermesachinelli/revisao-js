@@ -142,8 +142,13 @@ input-box label{
     bottom: 0%;
     left: 0%;
 }
+@media screen and (max-width:1024px){
+    #picture{
+        display: none;
+    }
+}
 @media screen and (max-width:500px){
-    .picture{
+    #picture{
         display: none;
     }
     #main{
@@ -155,10 +160,5 @@ input-box label{
         height: 100%;
         border-radius: 0;
         justify-content: center;
-    }
-}
-@media screen and (max-width:1024px){
-    .picture{
-        display: none;
     }
 }
